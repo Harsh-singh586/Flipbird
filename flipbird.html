@@ -1,5 +1,6 @@
 <html>
 <head>
+   <meta name="viewport" content="width=device-width, user-scalable=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
 #dwn{
@@ -34,12 +35,15 @@
 
 
 </div>
-
 <button id="play" onclick=myMove() type="button" class="btn btn-primary">Play</button>
-<button id="dwn" onclick=Down() type="button" class="btn btn-primary">Down</button>
-<button id="up" onclick=Up() type="button" class="btn btn-primary">UP</button>
 <button id="rld" onclick=location.reload() type="button" class="btn btn-primary" style="visibility:hidden;">Play Again</button>
+<div>
+<center>
+<button id="dwn" onclick=Down() type="button" class="btn btn-primary">Down</button><br><br>
+<button id="up" onclick=Up() type="button" class="btn btn-primary">UP</button>
+</center>
 <audio loop controls id="myAudio"><source src="bg.mp3" type="audio/mpeg"></audio>
+
 
 
 
